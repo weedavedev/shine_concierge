@@ -1,5 +1,7 @@
 <script>
-    let logo_source = "/media/shine_logo1.png";
+    import {base} from '$app/paths';
+
+    let logo_source = `${base}/media/shine_logo1.png`;
 </script>
 
 <h2>Yay shiney</h2>
