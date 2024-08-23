@@ -84,5 +84,22 @@
 </style>
 <div class="holding_page_content">
     <img class="center_image" src={logo_source} alt="Shine Logo"/>
+    <!--
+        <form on:submit={handleSubmit} class="contact-form">
+            <div class="form-input">
+                <label for="name">Name</label>
+                <input type="text" id="name" bind:value={name} required />
+            </div>
+            <div class="form-input">
+                <label for="email">Email</label>
+                <input type="email" id="email" bind:value={email} required />
+            </div>
+            <div class="form-input">
+                <label for="message">Message</label>
+                <textarea id="message" bind:value={message} required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>-->
+
 </div>
 
