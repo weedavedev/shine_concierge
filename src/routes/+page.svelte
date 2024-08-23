@@ -26,7 +26,6 @@
         min-height: 100vh;
         padding: 0 10%;
         box-sizing: border-box;
-        background-color: #f0f0f0;
     }
 
     .center_image {
@@ -82,6 +81,7 @@
         background-color: #0056b3; /* Darker background on hover */
     }
 </style>
+
 <div class="holding_page_content">
     <img class="center_image" src={logo_source} alt="Shine Logo"/>
     <!--

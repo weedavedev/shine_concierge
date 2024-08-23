@@ -5,8 +5,8 @@
 
 </script>
 
-<div class="layout">
-    <Navbar/>
+<div class="main">
+    <!--    <Navbar/>-->
     <slot/>
-    <Footer/>
+    <!--    <Footer/>-->
 </div>

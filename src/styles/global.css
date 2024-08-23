@@ -12,6 +12,13 @@ body {
     sans-serif;
     width: 1200px;
     margin: 0 auto;
+    height: 90vh;
+}
+
+.main {
+    flex: 1; /* Grow to fill available space */
+    display: flex; /* Use flexbox for the main section too */
+    flex-direction: column; /* Set direction to column */
 }
 
 a {
