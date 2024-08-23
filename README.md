@@ -1,38 +1,23 @@
-# create-svelte
+# Simple single page site
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+I have used the Sveltekit for the first time to create something, I started out by using the basic skeleton option to
+play around with making a site for a business.
+The client very simply wanted a single image in the center as a landing page and also a contact form, and i thought this
+was a good opertunity to try out svelteKit and github hosting, so here goes!
 
-## Creating a project
+[//]: # (I have a whole mix of clients who either are new to the website world or they have an old coal fired option we are going to overhaul. It will be nice to play with modern javascript based frameworks instead of staying on Wordpress for such simple setups.  )
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Technical-ish stuff
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+The framework is SvelteKit locally developed in Webstorm, built using vite.
+Github is doing the hosting through the pages feature and I have my domains DNS settings pointing here.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Todo
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- Initial Branch (Main)
+    * ~~Create basic site locally~~
+    * ~~Host site on github pages~~
+    * ~~Swap DNS records of site to point directly to github hosting~~
+- New Branch (Form)
+    * Create form and link with EmailJS, keep static vibe but with functionality.
+    * Sort HTTPS/SSL with Github setup
