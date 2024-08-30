@@ -5,7 +5,7 @@ play around with making a site for a business.
 The client very simply wanted a single image in the center as a landing page and also a contact form, and i thought this
 was a good opertunity to try out svelteKit and github hosting, so here goes!
 
-[//]: # (I have a whole mix of clients who either are new to the website world or they have an old coal fired option we are going to overhaul. It will be nice to play with modern javascript based frameworks instead of staying on Wordpress for such simple setups.  )
+[//]: # (ADD TO BLOG ENTRY INSTEAD I have a whole mix of clients who either are new to the website world or they have an old coal fired option we are going to overhaul. It will be nice to play with modern javascript based frameworks instead of staying on Wordpress for such simple setups.  )
 
 ## Technical-ish stuff
 
