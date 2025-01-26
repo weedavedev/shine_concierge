@@ -1,5 +1,8 @@
 <!-- src/lib/components/ContactForm.svelte -->
 <script>
+	import { env } from '$env/dynamic/public';
+
+	const ACCESS_KEY = env.WEB3FORMS_KEY;
 	let formData = {
 		name: '',
 		email: '',
