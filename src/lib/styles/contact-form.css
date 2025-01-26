@@ -1,0 +1,42 @@
+.contact-form {
+    @apply my-8 w-full;
+}
+
+.form-group {
+    @apply mb-4;
+}
+
+.form-group label {
+    @apply block mb-1 font-medium;
+}
+
+.form-group input,
+.form-group textarea {
+    @apply w-full p-2 border border-gray-200 rounded;
+}
+
+button[type="submit"] {
+    @apply bg-blue-600 text-white px-5 py-2.5 rounded cursor-pointer;
+}
+
+button[type="submit"]:hover {
+    @apply bg-blue-700;
+}
+
+button[type="submit"]:disabled {
+    @apply bg-gray-400 cursor-not-allowed;
+}
+
+.success {
+    @apply text-green-500 text-center;
+}
+
+.error {
+    @apply text-red-500 text-center;
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        @apply p-5;
+    }
+}
