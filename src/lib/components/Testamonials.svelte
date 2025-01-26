@@ -20,11 +20,8 @@
 
     <div class="testimonials-wrapper">
         {#each testamonials_data as testimonial, i}
-            <div
-                    class="testimonial-slide"
-                    style="opacity: {currentIndex === i ? '1' : '0'};
-                       transform: translateX({(i - currentIndex) * 100}%);"
-            >
+            <div class="testimonial-slide {currentIndex === i ? 'active' : ''}"
+                 style="transform: translateX({(i - currentIndex) * 100}%);">
                 <div class="testimonial-card">
                     <div class="rating-stars">{'★'.repeat(testimonial.stars)}</div>
                     <p class="testimonial-text">{testimonial.review}</p>
