@@ -19,7 +19,10 @@
 		isSubmitting = true;
 		submitStatus = '';
 
+
 		try {
+			console.log(import.meta.env.PUBLIC_WEB3FORMS_KEY); // Add this to your form component
+
 			const response = await fetch('https://api.web3forms.com/submit', {
 				method: 'POST',
 				headers: {
@@ -27,13 +30,19 @@
 					'Accept': 'application/json'
 				},
 				body: JSON.stringify({
-					access_key: import.meta.env.VITE_W3F_KEY,
+					access_key: import.meta.env.PUBLIC_WEB3FORMS_KEY,
 					subject: "New Contact Form Submission",
 					from_name: "Website Contact Form",
 					botcheck: formData.botcheck,
 					...formData
 				})
 			});
+
+
+			const data = await response.json();  // Add this
+			console.log("Response:", data);      // Add this
+
+
 
 			if (response.ok) {
 				submitStatus = 'success';
@@ -51,6 +60,11 @@
 		} finally {
 			isSubmitting = false;
 		}
+
+		console.log("Request body:", {
+			access_key: import.meta.env.VITE_W3F_KEY,
+			...formData
+		});
 	}
 </script>
 
