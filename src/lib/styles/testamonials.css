@@ -1,0 +1,35 @@
+.testimonials-container {
+    @apply max-w-4xl mx-auto p-6;
+}
+
+.testimonials-title {
+    @apply text-2xl font-bold text-center mb-8;
+}
+
+.testimonials-carousel {
+    @apply flex items-center justify-between gap-4;
+}
+
+.nav-button {
+    @apply text-2xl text-gray-400 hover:text-gray-600 transition-colors;
+}
+
+.testimonial-card {
+    @apply bg-white rounded-lg shadow-lg p-6 flex-1 max-w-2xl;
+}
+
+.stars {
+    @apply text-yellow-400 text-xl mb-4;
+}
+
+.review {
+    @apply text-gray-700 text-lg mb-4;
+}
+
+.meta {
+    @apply flex justify-between items-center text-sm text-gray-500;
+}
+
+.name {
+    @apply font-semibold;
+}

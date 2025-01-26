@@ -1,12 +1,11 @@
 <script>
-    import Navbar from '$lib/NavBar.svelte';
-    import Footer from '$lib/Footer.svelte';
-    import '../styles/global.css';
+    import '$lib/styles/global.css';
 
+    // Moved to +layout.ts export const prerender = true;
 </script>
 
 <div class="main">
-    <!--    <Navbar/>-->
+
     <slot/>
-    <!--    <Footer/>-->
+
 </div>
