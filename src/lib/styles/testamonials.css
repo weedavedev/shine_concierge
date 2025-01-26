@@ -1,35 +1,31 @@
-.testimonials-container {
-    @apply max-w-4xl mx-auto p-6;
+.testimonials-wrapper {
+    @apply w-full max-w-xl mx-auto relative h-48 overflow-hidden;
 }
 
-.testimonials-title {
-    @apply text-2xl font-bold text-center mb-8;
-}
-
-.testimonials-carousel {
-    @apply flex items-center justify-between gap-4;
-}
-
-.nav-button {
-    @apply text-2xl text-gray-400 hover:text-gray-600 transition-colors;
+.testimonial-slide {
+    @apply absolute inset-0 w-full transition-all duration-500 ease-in-out transform;
 }
 
 .testimonial-card {
-    @apply bg-white rounded-lg shadow-lg p-6 flex-1 max-w-2xl;
+    @apply bg-white p-6 rounded-lg shadow-md;
 }
 
-.stars {
-    @apply text-yellow-400 text-xl mb-4;
+.rating-stars {
+    @apply flex text-yellow-400 mb-2;
 }
 
-.review {
-    @apply text-gray-700 text-lg mb-4;
+.testimonial-text {
+    @apply text-gray-700;
 }
 
-.meta {
-    @apply flex justify-between items-center text-sm text-gray-500;
+.testimonial-meta {
+    @apply mt-4 flex justify-between text-sm text-gray-500;
 }
 
-.name {
-    @apply font-semibold;
+.testimonials-container {
+    @apply relative flex items-center justify-between w-full max-w-xl mx-auto;
+}
+
+.nav-button {
+    @apply z-10 px-4 py-2 text-gray-600 hover:text-gray-900 transition-colors duration-200;
 }
